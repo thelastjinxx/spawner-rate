@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "spawnerrate",
+  "version": "${version}",
+  "name": "Spawner Rate",
+  "description": "Client-side /spawner command: calculates and measures real spawner rates.",
+  "authors": ["thelastjinxx"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.thelastjinxx.spawnerrate.SpawnerRateMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
